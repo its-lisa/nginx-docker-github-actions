@@ -15,8 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-<<<<<<< HEAD
       run: docker build . --file Dockerfile --tag myngnix:$(date +%s)
-=======
-      run: docker build . --file Dockerfile --tag my-ngnix:$(date +%s)
->>>>>>> 81e0c6baf214d7d87fc419ca2ac83919368de60e
